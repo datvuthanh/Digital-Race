@@ -193,3 +193,11 @@ If you are interested in the detailed development process of this project, you c
 <img src="./media/huyphan.png" alt="Drawing" width="80"/>
 
 **Huy Phan** | [Email](mailto:HuyPQHE141762@fpt.edu.vn) 
+
+<img src="./media/tradinh.png" alt="Drawing" width="80"/>
+
+**Tra Dinh** | [Email](mailto:trandhe140661@fpt.edu.vn) 
+
+<img src="./media/haianh.jpg" alt="Drawing" width="80"/>
+
+**Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) 
