@@ -11,5 +11,10 @@ Qua một số thuật toán xử  lý ảnh như co giãn /nở để khử nhi
 <img src="../media/sign_segment.png" alt="Cover"/>
 </center>
 
+Kết quả thu được:
+<center>
+<img src="../media/sign_original.png" alt="Cover"/>
+</center>
+
 ### Training 
 Todo 
