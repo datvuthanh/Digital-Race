@@ -1,7 +1,9 @@
 <center>
 <img src="./media/cover.png" alt="Cover"/>
 </center>
-### Demo
+
+### Demo:
+
 <center>
 <img src="./media/demo.gif" width="242" height="137"/>
 </center>
