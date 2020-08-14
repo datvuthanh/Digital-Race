@@ -1,0 +1,2 @@
+Input Model:   [<tf.Tensor 'input_1:0' shape=(?, 144, 144, 3) dtype=float32>]
+Output Model:   [<tf.Tensor 'softmax/truediv:0' shape=(?, 144, 144, 9) dtype=float32>]

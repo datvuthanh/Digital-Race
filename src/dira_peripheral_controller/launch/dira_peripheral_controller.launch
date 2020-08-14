@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Default is 0x37 == 63-DEC-->
+	<arg name="lcd_i2c_adr" default="27"/>
+	<!-- Start dira_lcd_controller_node -->
+	<node name="dira_peripheral_controller_node" pkg="dira_peripheral_controller" type="dira_peripheral_controller_node" output="screen" respawn="true">
+	<param name="lcd_i2c_adr" value="$(arg lcd_i2c_adr)"/>
+	</node>
+</launch>

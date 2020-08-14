@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/src/dira_peripheral_controller/build/devel
+
+Name: dira_peripheral_controller
+Description: Description of dira_peripheral_controller
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/src/dira_peripheral_controller/include
+Libs: -L/home/ubuntu/catkin_ws/src/dira_peripheral_controller/build/devel/lib -ldira_peripheral_controller
+Requires: roscpp std_msg message_runtime

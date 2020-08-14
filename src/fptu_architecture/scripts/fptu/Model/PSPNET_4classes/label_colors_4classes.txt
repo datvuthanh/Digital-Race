@@ -1,0 +1,4 @@
+128 0 0	Road
+192 128 128	Line
+0 0 0	Background
+102 102 102	Sign

@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC -g  -shared -Wl,-soname,libdira_peripheral_controller.so -o devel/lib/libdira_peripheral_controller.so CMakeFiles/dira_peripheral_controller.dir/src/dira_peripheral_controller.cpp.o CMakeFiles/dira_peripheral_controller.dir/src/Hal.cpp.o CMakeFiles/dira_peripheral_controller.dir/src/LCDI2C.cpp.o 

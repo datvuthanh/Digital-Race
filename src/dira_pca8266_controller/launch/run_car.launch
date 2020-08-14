@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="dira_pca9685_controller" type="dira_pca9685_controller_node" name="pca1">
+		<param name="/pwm_pca9685" value="100"/>
+	</node>
+	<!-- <node pkg="dira_pca9685_controller" name="goodgame_never_die" type="joystick.py" output="screen"> 
+	</node> -->
+</launch>
