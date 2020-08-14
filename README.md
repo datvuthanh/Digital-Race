@@ -1,4 +1,4 @@
-![Demo](./gif (1).gif)
+![Demo](./demo.gif)
 
 
 
