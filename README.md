@@ -17,11 +17,16 @@ Research and develop a deep learning-driven self-driving car. The vehicle should
 <img src="./media/map.jpg" alt="Map"/>
 </center>
 
-#### The role: <to-do>
-1.
-2.
-3.
-4.
+#### The role: 
+<center>
+<img src="./media/role.jpg" alt="Role"/>
+</center>
+1. Biên, đường đi của xe có thể được xác định ngay cả trong trường hợp có nhiễu và địa hình đường đi
+phức tạp (đường có vạch kẻ đường hoặc kẻ nét đứt).
+2. Xe khoanh vùng, xác định và tránh được vật cản xuất hiện trên đường (đặc biệt là vật cản động)
+3. Xử lý được các tín hiệu nhiễu: Bóng cây, Tuyết trên đường
+4. Tất cả các xe thi đấu đều gắn sensor cảm biến và camera ghi lại hành trình thi đấu, chiếu trực tiếp cho
+khán giả theo dõi.
 
 #### The modules in this project.
 
