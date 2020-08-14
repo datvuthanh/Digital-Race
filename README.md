@@ -14,12 +14,12 @@ Welcome! This is an open-source self-driving car aimed for rapid prototyping, de
 Research and develop a deep learning-driven self-driving car. The vehicle should be able to finish the race. 
 
 <center>
-<img src="./media/map.jpg" alt="Map"/>
+<img src="./media/map.jpg" alt="Map" width="300" height="375"/>
 </center>
 
 #### The role: 
 <center>
-<img src="./media/role.jpg" alt="Role" width="500" height="500"/>
+<img src="./media/role.jpg" alt="Role" width="300" height="300"/>
 </center>
 
 1. Biên, đường đi của xe có thể được xác định ngay cả trong trường hợp có nhiễu và địa hình đường đi
