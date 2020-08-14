@@ -86,9 +86,12 @@ To compile the project:
 3. `$ catkin_make`
 4. `$ source devel/setup.bash`
 
-##### Launch ZED cameras
-- `$ roslaunch zed_wrapper zed.launch` (no rviz)
-- `$ roslaunch zed_display display.launch` (with rviz)
+##### Launch Lidar (RplidarA2)
+1. `$ cd ~/catkin_ws/`
+2. Clone the repository. `git clone https://github.com/Slamtec/rplidar_ros.git src/rplidar_ros` 
+2. `$ catkin_make`
+##### Launch Orrbec Astra cameras
+- `$ roslaunch astra_launch astra.launch`
 
 ##### Launch the Navigation Stack
 - `$ roslaunch path_planning rtab_mapping_navigation.launch` 
