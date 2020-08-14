@@ -1,4 +1,8 @@
 <center>
+<img src="./media/cover.png" alt="Drawing"/>
+</center>
+### Demo
+<center>
 <img src="./demo.gif" width="242" height="137"/>
 </center>
 
