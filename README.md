@@ -8,10 +8,14 @@
 <img src="./media/demo.gif" width="242" height="137"/>
 </center>
 
-Welcome! This is an open source self-driving development platform aimed for rapid prototyping, deep learning, and robotics research. The system currently runs on a modified electric golf cart. Here are our goals:
+Welcome! This is an open source self-driving car aimed for rapid prototyping, deep learning, and robotics research. The system currently runs on a jetson tx2 module. Here are our goals:
 
 ### Goals:
-Research and develop a deep learning-driven self-driving car. The vehicle should be able to achieve level 4 autonomy within a geofenced area.
+Research and develop a deep learning-driven self-driving car. The vehicle should be able to finish the race. 
+
+<center>
+<img src="./media/map.jpg" alt="Map"/>
+</center>
 
 #### The modules in this project.
 
