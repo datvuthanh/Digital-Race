@@ -1,4 +1,6 @@
+<center>
 ![Demo](./demo.gif)
+</center>
 
 
 
