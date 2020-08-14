@@ -1,9 +1,9 @@
 <center>
-<img src="./media/cover.png" alt="Drawing"/>
+<img src="./media/cover.png" alt="Cover"/>
 </center>
 ### Demo
 <center>
-<img src="./demo.gif" width="242" height="137"/>
+<img src="./media/demo.gif" width="242" height="137"/>
 </center>
 
 
