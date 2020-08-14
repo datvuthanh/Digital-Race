@@ -217,7 +217,7 @@ If you are interested in the detailed development process of this project, you c
 
 <img src="./media/tradinh.png" alt="Drawing" width="80"/>
 
-**Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) 
+**Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) | [Github](https://github.com/AnhTH-FUHN)
 
 <img src="./media/haianh.jpg" alt="Drawing" width="80"/>
 
