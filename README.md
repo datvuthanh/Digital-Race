@@ -66,10 +66,8 @@ For the full documentation of the development process, please visit my website: 
 	* [Path Planning](#Path%20Planning)
 	* [Vehicle Motion Control](#Vehicle%20Motion%20Control)
 
-<a name="Introduction"></a>
 ## Introduction
 to do it
-<a name="Try%20it%20out"></a>
 
 ## Try it out
 Before you jump in, let me describe the hardware requirement for this project. **A webcam is the minimum requirment.** At this point, you can only run the whole system on the actual self-driving vehicle. ROS will throw warnings (even errors) at you if you don't have the hardware connected to your Linux machine. **If you don't have access to the hardware setup, don't worry** 👇
