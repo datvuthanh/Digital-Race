@@ -8,7 +8,7 @@
 <img src="./media/demo.gif" width="242" height="137"/>
 </center>
 
-Welcome! This is an open source self-driving car aimed for rapid prototyping, deep learning, and robotics research. The system currently runs on a jetson tx2 module. Here are our goals:
+Welcome! This is an open-source self-driving car aimed for rapid prototyping, deep learning, and robotics research. The system currently runs on a jetson tx2 module. Here are our goals:
 
 ### Goals:
 Research and develop a deep learning-driven self-driving car. The vehicle should be able to finish the race. 
@@ -16,6 +16,12 @@ Research and develop a deep learning-driven self-driving car. The vehicle should
 <center>
 <img src="./media/map.jpg" alt="Map"/>
 </center>
+
+#### The role: <to-do>
+1.
+2.
+3.
+4.
 
 #### The modules in this project.
 
