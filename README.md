@@ -1,11 +1,11 @@
 <center>
-<img src="./media/cover.png" alt="Cover"/>
+<img src="./images/cover.png" alt="Cover"/>
 </center>
 
 ### Demo:
 
 <center>
-<img src="./media/demo.gif" width="242" height="137"/>
+<img src="./images/demo.gif" width="242" height="137"/>
 </center>
 
 Welcome! This is an open-source self-driving car aimed for rapid prototyping, deep learning, and robotics research. The system currently runs on a jetson tx2 module. Here are our goals:
@@ -14,12 +14,12 @@ Welcome! This is an open-source self-driving car aimed for rapid prototyping, de
 Research and develop a deep learning-driven self-driving car. The vehicle should be able to finish the race. 
 
 <center>
-<img src="./media/map.jpg" alt="Map" width="300" height="375"/>
+<img src="./images/map.jpg" alt="Map" width="300" height="375"/>
 </center>
 
 #### The role: 
 <center>
-<img src="./media/role.jpg" alt="Role" width="300" height="300"/>
+<img src="./images/role.jpg" alt="Role" width="300" height="300"/>
 </center>
 
 1. Biên, đường đi của xe có thể được xác định ngay cả trong trường hợp có nhiễu và địa hình đường đi
@@ -94,7 +94,7 @@ To compile the project:
 - `$ roslaunch path_planning rtab_mapping_navigation.launch` 
 
 <center>
-	<img src="./media/path_planning_2.png" alt="image" width="640"/>
+	<img src="./images/path_planning_2.png" alt="image" width="640"/>
 </center>
 
 🚙 Bon Voyage 😀
@@ -137,7 +137,7 @@ NVIDIA's paper used a convolutional neural network with a single frame input. I 
 The input of the network is a 3d convolutional block, with the shape of `n * weight * height * 3`. `n` is the length of the input sequence. A flatten layer and a dense layer are added to the back of the network for the purpose of this regression problem. 
 
 <center>
-	<img src="./media/model.png" alt="Drawing" width="640"/>
+	<img src="./images/model.png" alt="Drawing" width="640"/>
 </center>
 
 Here is a video demo of deep learning model running on the autonomous golf cart. 
@@ -150,7 +150,7 @@ Here is a video demo of deep learning model running on the autonomous golf cart.
 The cart understands its surrounding  through semantic segmentation, which is a technique in computer that classifies each pixel in an image into different categories. The vehicle can also make decisions based on the segmentic segmentation results. The cart can change its speed based on the proximity to nearby obstacles.
 
 <center>
-<img src="./media/seg.png" alt="Drawing" width="640"/>
+<img src="./images/seg.png" alt="Drawing" width="640"/>
 </center>
 
 We deployed the ENet architecture for segmentation. ENet is design to work well in realtime applications. For more information, please visit the [paper](http://arxiv.org/pdf/1606.02147.pdf). We used the CityScape dataset for training and the python code for training and inferencing are located in the `./src/segmentation/scripts` directory.
@@ -161,7 +161,7 @@ We deployed the ENet architecture for segmentation. ENet is design to work well 
 
 ## The Navigation Stack
 
-![](./media/nav_stack.png)
+![](./images/nav_stack.png)
 
 The self-driving vehicle uses a modified version of the ROS navigation stack. The flowchart above illustrate the mapping and path planning process. First, I create a detailed map of the environment with `rtabmap_ros`. With that global map, I use the localization feature of `rtabmap_ros` and the odom feature of the zed camera system to localize and plan paths. 
 
@@ -172,7 +172,7 @@ The self-driving vehicle uses a modified version of the ROS navigation stack. Th
 `rtabmap` (realtime appearance based mapping) allows me to construct a global map of the environment. For more information on the mapping package, please check out this [`.launch` file](./ros/src/navigation/mapping/launch/rtab_mapping.launch). 
 
 <center>
-	<img src="./media/rtab-map.png" alt="Drawing" width="640"/>
+	<img src="./images/rtab-map.png" alt="Drawing" width="640"/>
 </center> 
 
 <a name="Path%20Planning" > </a>
@@ -182,7 +182,7 @@ The self-driving vehicle uses a modified version of the ROS navigation stack. Th
 The project uses the [`move_base`](http://wiki.ros.org/move_base) node from the navigation stack. The image below shows the costmap (in blue and purple), and the global occupancy grid (in black and gray). `move_base` also plans the local and global path. Global paths are shown in green and yellow below. You can find the `yaml` files [here](./ros/src/navigation/path_planning/params). 
 
 <center>
-	<img src="./media/path_plan_1.png" alt="Drawing" width="640"/>
+	<img src="./images/path_plan_1.png" alt="Drawing" width="640"/>
 </center>
 
 <a name="Vehicle%20Motion%20Control" > </a>
@@ -192,7 +192,7 @@ The project uses the [`move_base`](http://wiki.ros.org/move_base) node from the 
 The move base node publishes `/cmd_vel` commands, which are processed and sent directly to the vehicle. 
 
 <center>
-	<img src="./media/vehicle_side.png" alt="Drawing" width="640"/>
+	<img src="./images/vehicle_side.png" alt="Drawing" width="640"/>
 </center>
 
 # Contact / Info
@@ -202,17 +202,17 @@ If you are interested in the detailed development process of this project, you c
 
 **Dat Vu (Leader)** | [Email](mailto:stephen.t.vu@hotmail.com) | [Github](https://www.github.com/datvuthanh) | [Website](https://datvuthanh.github.io/)
 
-<img src="./media/datvu.jpg" alt="Drawing" width="80"/>
+<img src="./images/datvu.jpg" alt="Drawing" width="80"/>
 
 **Huy Phan** | [Email](mailto:HuyPQHE141762@fpt.edu.vn) 
 
-<img src="./media/huyphan.png" alt="Drawing" width="80"/>
+<img src="./images/huyphan.png" alt="Drawing" width="80"/>
 
 **Tra Dinh** | [Email](mailto:trandhe140661@fpt.edu.vn) 
 
-<img src="./media/tradinh.png" alt="Drawing" width="80"/>
+<img src="./images/tradinh.png" alt="Drawing" width="80"/>
 
 **Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) | [Github](https://github.com/AnhTH-FUHN)
 
-<img src="./media/haianh.jpg" alt="Drawing" width="80"/>
+<img src="./images/haianh.jpg" alt="Drawing" width="80"/>
 

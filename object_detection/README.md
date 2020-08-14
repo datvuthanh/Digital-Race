@@ -8,12 +8,12 @@ Sau khi có được bức ảnh đã qua segment, chúng tôi lấy được v�
 Qua một số thuật toán xử  lý ảnh như co giãn /nở để khử nhiễu lấy đặc trưng quan trọng nhất. Sau đó chúng tôi xác định tâm của vật thể  và xử lý cắt ảnh trên ảnh gốc và resize ảnh về kích thước (32,32).
 
 <center>
-<img src="../media/sign_segment.png" alt="Cover"/>
+<img src="../images/sign_segment.png" alt="Cover"/>
 </center>
 
 Kết quả thu được:
 <center>
-<img src="../media/sign_original.png" alt="Cover"/>
+<img src="../images/sign_original.png" alt="Cover"/>
 </center>
 
 ### Training 

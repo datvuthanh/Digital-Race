@@ -6,7 +6,7 @@ Công cụ này lưu file đã label dạng .json nhưng chúng ta cũng có th�
 ### Training
 
 <center>
-<img src="../media/segment.gif" width="768" height="384"/>
+<img src="../images/segment.gif" width="768" height="384"/>
 </center>
 
 Ý tưởng cốt lõi của chúng tôi: Từ một ảnh đầu vào có thể sử dụng deep learning/semantic segmentation để segment thành các object khác nhau như: **Line**, **Road**, **Background**, **Traffic Signs**. 
