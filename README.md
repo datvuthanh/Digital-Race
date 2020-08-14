@@ -18,17 +18,12 @@ Research and develop a deep learning-driven self-driving car. The vehicle should
 
 #### The modules in this project.
 
-1. End-to-End Steering (Behavioral cloning)
-2. Semantic Segmentation
-3. Object Detection 🚙
-4. Drive by Wire (DBW)
-5. CARLA simulator integration 
-6. ZED stereoscopic vision system
-7. Mapping with rtabamp
-8. Path planning with ROS nav stack. 
-9. Localization, pose tracking, and odom with ZED and rtabmap.
+1. Semantic Segmentation
+2. Object Detection 🚙
+3. Mapping with rtabmap
+4. Path planning with ROS nav stack. 
 
-For the full documentation of the development process, please visit my website: [www.neilnie.com](https://www.neilnie.com)
+For the full documentation of the development process, please visit my website: [datvuthanh.github.io](https://datvuthanh.github.io)
 
 ## Table of Content
 - [Try it out](#Try%20it%20out)
