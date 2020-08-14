@@ -54,17 +54,13 @@ For the full documentation of the development process, please visit my website: 
 
 ## Table of Content
 - [Introduction](#Introduction)
-- [Try it out](#Try%20it%20out)
-- [About ROS](#About%20ROS)
-- [Simulation](#Simulation)
-- [Autopilot & End-to-End Behavioral Cloning](#autopilot--end-to-end-behavioral-cloning)
-	* [What's Behavioral Cloning](#whats-behavioral-cloning)
-	* [Model](#Model)
-- [Semantic Segmentation](#Semantic%20Segmentation)
+- [Try it out](#Try-it-out)
+- [About ROS](#About-ROS)
+- [Semantic Segmentation](#Semantic-Segmentation)
 - [The Navigation Stack](#the-navigation-stack)
 	* [RTABMap](#RTABMap)
-	* [Path Planning](#Path%20Planning)
-	* [Vehicle Motion Control](#Vehicle%20Motion%20Control)
+	* [Path Planning](#Path-Planning)
+	* [Vehicle Motion Control](#Vehicle-Motion-Control)
 
 ## Introduction
 to do it
