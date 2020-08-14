@@ -184,12 +184,12 @@ The move base node publishes `/cmd_vel` commands, which are processed and sent d
 # Contact / Info
 If you are interested in the detailed development process of this project, you can visit Neil's blog at [neilnie.com](https://neilnie.com) to find out more about it. Neil will make sure to keep you posted about all of the latest development on the club.
 
-**Developers:**
+**Contributors:**
 
-<img src="./media/neil.png" alt="Drawing" width="80"/>
+<img src="./media/datvu.jpg" alt="Drawing" width="80"/>
 
-**Neil (Yongyang) Nie** | [Email](mailto:yongyang.nie@gmail.com) | [Github](https://www.github.com/NeilNie) | [Website](neilnie.com) | [Linkedin](https://www.linkedin.com/in/yongyang-neil-nie-896204118/)
+**Dat Vu (Leader)** | [Email](mailto:stephen.t.vu@hotmail.com) | [Github](https://www.github.com/datvuthanh) | [Website](datvuthanh.github.io)
 
 <img src="./media/michael.png" alt="Drawing" width="80"/>
 
-**Michael Meng** | [Email](mailto:xmeng18@deerfield.edu) | [Github](https://github.com/xmeng17)
+**Huy Phan** | [Email](mailto:xmeng18@deerfield.edu) | [Github](https://github.com/xmeng17)
