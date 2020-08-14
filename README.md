@@ -190,6 +190,6 @@ If you are interested in the detailed development process of this project, you c
 
 **Dat Vu (Leader)** | [Email](mailto:stephen.t.vu@hotmail.com) | [Github](https://www.github.com/datvuthanh) | [Website](datvuthanh.github.io)
 
-<img src="./media/michael.png" alt="Drawing" width="80"/>
+<img src="./media/huyphan.png" alt="Drawing" width="80"/>
 
-**Huy Phan** | [Email](mailto:xmeng18@deerfield.edu) | [Github](https://github.com/xmeng17)
+**Huy Phan** | [Email](mailto:HuyPQHE141762@fpt.edu.vn) 
