@@ -17,4 +17,5 @@ Kết quả thu được:
 </center>
 
 ### Training 
-Todo 
+Khi có được tập dataset cần thiết. Chúng tôi tiến hành train  dữ liệu sử dụng kiến trúc CNN. Vì tiền xử lý dữ liệu khá tốt nên chúng tôi chỉ cần thêm một vài lớp CNN để đảm bảo tốc độ tính toán vừa đủ và vẫn đạt hiệu quả cao. 
+Ảnh sẽ được đưa về gray sau đó cân bằng sáng và normalize. Kết quả thu được với độ chính xác gần như tuyệt đối.
