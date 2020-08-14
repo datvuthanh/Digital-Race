@@ -16,7 +16,7 @@ Research and develop a deep learning-driven self-driving car. The vehicle should
 #### The modules in this project.
 
 1. Semantic Segmentation
-2. Object Detection 🚙
+2. Object Detection
 3. Mapping with rtabmap
 4. Path planning with ROS nav stack. 
 
