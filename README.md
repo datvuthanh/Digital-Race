@@ -97,54 +97,8 @@ To compile the project:
 	<img src="./images/path_planning_2.png" alt="image" width="640"/>
 </center>
 
-🚙 Bon Voyage 😀
-
-<a name="About%20ROS" > </a>
-
 ## About ROS
-This project uses ROS. __For more information on ROS, nodes, topics and others please refer to the ROS [README](./ros/README.md).__
-
-<a name="Simulation" > </a>
-
-## Simulation
-(🏗 Construction Zone 🚧)
-
-Building a self-driving car is hard. Not everyone has access to expensive hardware. I am currently trying to integrate this project with the CARLA self-driving simulator. If you are interested in CARLA, please refer to this [documentation](./ros/src/simulation/README.md). The ROS system in this project can *partially* run on the CARLA simulator. 
-
-__If you want to try out the simulator, please refer to the documentation [here](./ros/src/simulation/README.md).__
-
-<center>
-    <img src="./ros/src/simulation/assets/simulator-1.png" alt="Drawing" width="640"/>
-</center>
-
-<a name="autopilot--end-to-end-behavioral-cloning" ></a>
-
-## Autopilot & End-to-End Behavioral Cloning
-
-The autopilot system, found here in the [autopilot node](./ros/src/autopilot), uses deep learning to predict the steering commands and acceleration commands for the vehicle, only using data collected by the front facing camera. 
-
-<a name="whats-behavioral-cloning" > </a>
-
-### What's Behavioral Cloning
-In 2016, NVIDIA proposed a novel deep learning approach allowed their car to accurately perform real-time end-to-end steering command prediction. Around the same time, Udacity held a challenge that asked researchers to create the best end-to-end steering prediction model. Our goal is to further the work in behavioral cloning for self-driving vehicles. 
-
-<a name="Model" > </a>
-
-### Model
-
-NVIDIA's paper used a convolutional neural network with a single frame input. I believe that the single-frame-input CNN doesn't provide any temporal information which is critical in self-driving. This is the motive behind choosing the i3d architecture, which is rich in spacial-temporal information.
-
-The input of the network is a 3d convolutional block, with the shape of `n * weight * height * 3`. `n` is the length of the input sequence. A flatten layer and a dense layer are added to the back of the network for the purpose of this regression problem. 
-
-<center>
-	<img src="./images/model.png" alt="Drawing" width="640"/>
-</center>
-
-Here is a video demo of deep learning model running on the autonomous golf cart. 
-
-[VIDEO DEMO](https://www.youtube.com/watch?v=4bZ40W4BGoE)
-
-<a name="Semantic%20Segmentation" > </a>
+This project uses ROS. __For more information on ROS, nodes, topics and others please refer to the ROS [README](./src/README.md).__
 
 ## Semantic Segmentation
 The cart understands its surrounding  through semantic segmentation, which is a technique in computer that classifies each pixel in an image into different categories. The vehicle can also make decisions based on the segmentic segmentation results. The cart can change its speed based on the proximity to nearby obstacles.
