@@ -1,4 +1,4 @@
-![Self Driving Car](https://gifs.com/gif/goodgame-digital-race-2xBYqN)
+<iframe src='//gifs.com/embed/goodgame-digital-race-2xBYqN' frameborder='0' scrolling='no' width='720px' height='406px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 [![Build Status](https://travis-ci.org/sigmaai/self-driving-golf-cart.svg?branch=master)](https://travis-ci.org/sigmaai/self-driving-golf-cart) [![codebeat badge](https://codebeat.co/badges/3b223e1c-a2e3-462f-91ff-b8aaddedf1d2)](https://codebeat.co/projects/github-com-sigmaai-self-driving-golf-cart-master) [![Documentation Status](https://readthedocs.org/projects/self-driving-golf-cart/badge/?version=latest)](https://self-driving-golf-cart.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/YongyangNie)
 
