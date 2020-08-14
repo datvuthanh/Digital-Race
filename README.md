@@ -90,6 +90,7 @@ To compile the project:
 1. `$ cd ~/catkin_ws/`
 2. Clone the repository. `git clone https://github.com/Slamtec/rplidar_ros.git src/rplidar_ros` 
 2. `$ catkin_make`
+3. `$ roslaunch rplidar_launch rplidar.launch`
 ##### Launch Orrbec Astra cameras
 - `$ roslaunch astra_launch astra.launch`
 
