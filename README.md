@@ -32,6 +32,17 @@ phức tạp (đường có vạch kẻ đường hoặc kẻ nét đứt).
 4. Tất cả các xe thi đấu đều gắn sensor cảm biến và camera ghi lại hành trình thi đấu, chiếu trực tiếp cho
 khán giả theo dõi.
 
+5. Trường hợp xe lao ra ngoài: 2 bánh vẫn được chấp nhận, bánh thứ 3 đè lên vạch line 2 bên đường xe phải quay về điểm xuất phát và đi lại.
+
+6. Trên đường 2 chiều, xe luôn phải đi bên làn phải. Xe được phép chuyển làn khi đủ 2 điều kiện sau: vượt xe đi cùng chiều và vạch chia làn đường là nét đứt. Nếu
+
+7. không thực hiện đúng luật xe phải quay về điểm xuất phát và đi lại.
+
+8. Trường hợp xe có thể xin retry: đi sai đường, xe lao ra khỏi đường, xe dừng lại quá lâu.
+
+9. Tại checkpoint 5, xe phải dừng đủ 3 giây và 2 bánh xe trước đè lên hoặc vượt qua vạch xuất phát. Trường hợp xe không dừng đủ 3 giây, mốc hoàn thành xa nhất
+của xe là mốc cảm biến thứ 4, trước mốc STOP.
+
 #### The modules in this project.
 
 1. Semantic Segmentation
