@@ -185,7 +185,7 @@ The move base node publishes `/cmd_vel` commands, which are processed and sent d
 If you are interested in the detailed development process of this project, you can visit Neil's blog at [neilnie.com](https://neilnie.com) to find out more about it. Neil will make sure to keep you posted about all of the latest development on the club.
 
 **Contributors:**
-**Dat Vu (Leader)** | [Email](mailto:stephen.t.vu@hotmail.com) | [Github](https://www.github.com/datvuthanh) | [Website](datvuthanh.github.io)
+**Dat Vu (Leader)** | [Email](mailto:stephen.t.vu@hotmail.com) | [Github](https://www.github.com/datvuthanh) | [Website](https://datvuthanh.github.io/)
 
 <img src="./media/datvu.jpg" alt="Drawing" width="80"/>
 
