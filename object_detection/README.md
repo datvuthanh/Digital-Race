@@ -7,7 +7,7 @@ Sau khi có được bức ảnh đã qua segment, chúng tôi lấy được v�
 
 Qua một số thuật toán xử  lý ảnh như co giãn/nở để khử nhiễu lấy đặc trưng quan trọng nhất. Sau đó chúng tôi xác định tâm của vật thể và xử lý cắt trên ảnh gốc và resize về kích thước (32,32).
 
-Bước tiền xử lý được thực hiện trong package **fpt_architecture**, bạn đọc có thể xem tại mục data_logger trong [**README**](../src/fpt_architecture/README.md)
+Bước tiền xử lý được thực hiện trong package **fptu_architecture**, bạn đọc có thể xem tại mục data_logger trong [**README**](../src/fptu_architecture/README.md)
 
 <center>
 <img src="../images/sign_segment.png" alt="Cover"/>
