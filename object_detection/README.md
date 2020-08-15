@@ -27,3 +27,11 @@ Khi có được tập dataset cần thiết. Chúng tôi tiến hành train  d�
 </center>
 
 ### How it works 
+
+1. Train model ```python3 train.py```
+
+2. Để predict object trong file ```predict.py``` sửa đường dẫn weight và đường dẫn ảnh. Sau đó chạy bằng lệnh ```python3 predict.py``` 
+
+3. Để convert model về dạng frozen graph (.pb) sửa đường dẫn weight và chạy bằng lệnh ```python3 convert.py```
+
+   
