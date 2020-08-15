@@ -25,3 +25,5 @@ Khi có được tập dataset cần thiết. Chúng tôi tiến hành train  d�
 <center>
 <img src="../images/model_plot.png" alt="Cover"/>
 </center>
+
+### How it works 

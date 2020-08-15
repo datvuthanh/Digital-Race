@@ -1,3 +1,9 @@
+'''
+Copyright (c) Dat Vu, 2020
+All Rights Reserved
+Email: stephen.t.vu@hotmail.com
+'''
+
 from keras import backend as K
 import tensorflow as tf
 from model import cnn_model

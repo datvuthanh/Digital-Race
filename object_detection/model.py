@@ -1,3 +1,9 @@
+'''
+Copyright (c) Dat Vu, 2020
+All Rights Reserved
+Email: stephen.t.vu@hotmail.com
+'''
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import Adam

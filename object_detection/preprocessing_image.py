@@ -1,3 +1,8 @@
+'''
+Copyright (c) Dat Vu, 2020
+All Rights Reserved
+Email: stephen.t.vu@hotmail.com
+'''
 import cv2
 ############################### PREPROCESSING THE IMAGES
 def grayscale(img):
