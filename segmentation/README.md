@@ -44,3 +44,5 @@ Ngoài ra, chúng tôi có kết hợp một số hàm loss khác với nhau nh�
 <center>
 <img src="../images/fb_score.png" />
 </center>
+
+Với các tham số cho dice loss, chúng tôi muốn chú trọng nhiều hơn true positive nên chúng tôi đã đặt hệ số beta = 0.5 bởi vì với sa hình thi đấu, việc segment thiếu road sẽ an toàn hơn việc segment thừa road. 
