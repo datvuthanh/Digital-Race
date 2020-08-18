@@ -1,9 +1,9 @@
 
 ## Table of Content
-- [Table of Content](#table-of-content)
 - [Dira](#dira)
 - [Libraries](#libraries)
 - [Driverless System](#driverless-system)
+
 
 ## Dira
 
@@ -21,7 +21,7 @@ Hardware requirements:
 5. Orrbec Astra Camera
 6. RPLidar A2
 7. Infrared sensor
- 
+
 <center>
 <img src="../images/car_1.jpg" alt="image" width="640"/>
 </center>
