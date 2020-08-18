@@ -2,7 +2,7 @@
 
 ## Table of Content
 - [Dira's Package](#Dira)
-- [Try it out](#Try-it-out)
+- [Libraries's requirements](#Libraries)
 - [About ROS](#About-ROS)
 - [Semantic Segmentation](#Semantic-Segmentation)
 - [The Navigation Stack](#the-navigation-stack)
@@ -18,3 +18,16 @@ Ban tổ chức có đưa 3 package cơ bản để có thể khởi động xe:
 2. [dira_pca8266_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_pca8266_controller)
 3. [dira_peripheral_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_peripheral_controller)
 
+## Libraries
+
+Các thư viện tối thiểu cần phải cài trên mạch jetson-tx2:
+
+1. Thư viện Astra camera tích hợp ROS (http://wiki.ros.org/astra_camera)
+2. Thư viện rplidar_ros cho LiDAR 2D - rplidar A2 (http://wiki.ros.org/rplidar)
+3. Thư viện rtabmap và navigation (http://wiki.ros.org/rtabmap_ros và http://wiki.ros.org/navigation)
+
+Ngoài ra, để đạt hiệu năng tốt nhất trên jetson-tx2 chúng tôi có cài đặt thêm một số thư viện khác:
+
+1. Thư viện numba (https://github.com/jefflgaol/Install-Packages-Jetson-ARM-Family)
+2. Thư viện Tensorflow, Keras
+3. Tăng tốc độ khởi động TensorRT trên jetson-tx2 (https://jkjung-avt.github.io/tf-trt-revisited)
