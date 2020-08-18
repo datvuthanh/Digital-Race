@@ -17,16 +17,13 @@ find_package(catkin REQUIRED
         rosserial_msgs
         rosserial_python
         std_msgs
-        costmap_2d
         pcl_conversions
         pcl_ros
         cv_bridge
         grid_map_ros
         grid_map_msgs
-        amcl
         map_server
         )
-
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -153,6 +150,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/mapping_node.cpp)
+
+#add_executable(${PROJECT_NAME}_node src/vehicle_init_pose.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

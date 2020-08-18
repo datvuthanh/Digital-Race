@@ -119,7 +119,7 @@ void zed_pose_callback (const geometry_msgs::PoseStamped& pose) {
 
 int main(int argc, char **argv){
 
-    ros::init(argc, argv, "set_vehicle_init_pos");
+    ros::init(argc, argv, "init_pose");
 
     ros::NodeHandle n;
     client = n.serviceClient<mapping::set_initial_pose>("/zed/set_initial_pose");
