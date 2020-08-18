@@ -62,20 +62,22 @@ This project uses ROS. __For more information on ROS, nodes, topics and others p
 
 ## Semantic Segmentation
 The cart understands its surrounding  through semantic segmentation, which is a technique in computer that classifies each pixel in an image into different categories. The vehicle can also make decisions based on the segmentic segmentation results. The cart can change its speed based on the proximity to nearby obstacles.
+<center>
+<img src="./images/segmentation.jpeg" alt="Drawing" width="640"/>
+</center>
+
+
+We deployed the PSPNet architecture for segmentation. PSPNet is design to work well in realtime applications. For more information, please visit the [paper](https://arxiv.org/pdf/1612.01105.pdf). We collect dataset for training and the python code for training and inferencing are located in the `segmentation` directory.
 
 <center>
 <img src="./images/pspnet.png" alt="Drawing" width="640"/>
 </center>
 
-We deployed the PSPNet architecture for segmentation. PSPNet is design to work well in realtime applications. For more information, please visit the [paper](https://arxiv.org/pdf/1612.01105.pdf). We collect dataset for training and the python code for training and inferencing are located in the `segmentation` directory.
-
 [VIDEO DEMO](https://youtu.be/RMJ9s7XbxDs)
-
-<a name="the-navigation-stack" > </a>
 
 ## The Navigation Stack
 
-![](./images/nav_stack.png)
+![](./images/navi.png)
 
 The self-driving vehicle uses a modified version of the ROS navigation stack. The flowchart above illustrate the mapping and path planning process. First, I create a detailed map of the environment with `rtabmap_ros`. With that global map, I use the localization feature of `rtabmap_ros` and the odom feature of the zed camera system to localize and plan paths. 
 
@@ -83,7 +85,7 @@ The self-driving vehicle uses a modified version of the ROS navigation stack. Th
 
 ### RTABMap
 
-`rtabmap` (realtime appearance based mapping) allows me to construct a global map of the environment. For more information on the mapping package, please check out this [`.launch` file](./ros/src/navigation/mapping/launch/rtab_mapping.launch). 
+`rtabmap` (realtime appearance based mapping) allows me to construct a global map of the environment. For more information on the mapping package, please check out this [`.launch` file](./src/mapping/launch/rtab_mapping.launch). 
 
 <center>
 	<img src="./images/rtab-map.png" alt="Drawing" width="640"/>
