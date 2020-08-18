@@ -28,7 +28,7 @@ Hardware requirements:
 7. Infrared sensor
  
 <center>
-<img src="../images/car_1.png" alt="image" width="640"/>
+<img src="../images/car_1.jpg" alt="image" width="640"/>
 </center>
 
 ## Libraries

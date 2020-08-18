@@ -7,7 +7,7 @@ Use the Terminal to run the following command:
 ### Topics
 
 <center>
-<img src="../../images/car_2.png" width="640"/>
+<img src="../../images/car_2.jpg" width="640"/>
 </center>
 
 #### Subscribers
