@@ -46,3 +46,11 @@ Ngoài ra, chúng tôi có kết hợp một số hàm loss khác với nhau nh�
 </center>
 
 Với các tham số cho dice loss, chúng tôi muốn chú trọng nhiều hơn true positive nên chúng tôi đã đặt hệ số beta = 0.5 bởi vì với sa hình thi đấu, việc segment thiếu road sẽ an toàn hơn việc segment thừa road. 
+
+## Result
+
+Kết quả đạt được: IoU 86%, F1-Score 90%. (Vẫn đang cải thiện)
+
+## How it works
+
+Chạy notebook goodgame_GPU.ipynb. Sẽ update source-code trong thời gian tới.
