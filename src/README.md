@@ -7,7 +7,7 @@
 
 ## Dira
 
-Ban tổ chức có đưa 3 package cơ bản để có thể khởi động xe: 
+When the digital race organizers hand over the car to each team, they will install three basic packages to receive messages and launch that car.
 
 1. [dira_mpu9250_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_mpu9250_controller)
 2. [dira_pca8266_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_pca8266_controller)
@@ -28,16 +28,16 @@ Hardware requirements:
 
 ## Libraries
 
-Các thư viện tối thiểu cần phải cài trên mạch jetson-tx2:
+The minimum libraries must be installed on jetson tx2:
 
-1. Thư viện Astra camera tích hợp ROS (http://wiki.ros.org/astra_camera)
-2. Thư viện rplidar_ros cho LiDAR 2D - rplidar A2 (http://wiki.ros.org/rplidar)
-3. Thư viện rtabmap và navigation (http://wiki.ros.org/rtabmap_ros và http://wiki.ros.org/navigation)
+1. Orrbec Astra camera libraries on ROS (http://wiki.ros.org/astra_camera)
+2. Rplidar_ros for LiDAR 2D - rplidar A2 (http://wiki.ros.org/rplidar)
+3. Rtabmap and Navigation (http://wiki.ros.org/rtabmap_ros và http://wiki.ros.org/navigation)
 
-Ngoài ra, để đạt hiệu năng tốt nhất trên jetson-tx2 chúng tôi có cài đặt thêm một số thư viện khác:
+Besides, to optimized jetson tx2's performance we installed other libraries:
 
-1. Thư viện numba (https://github.com/jefflgaol/Install-Packages-Jetson-ARM-Family)
-2. Thư viện Tensorflow, Keras
-3. Tăng tốc độ khởi động TensorRT trên jetson-tx2 (https://jkjung-avt.github.io/tf-trt-revisited)
+1. Numba (https://github.com/jefflgaol/Install-Packages-Jetson-ARM-Family)
+2. Tensorflow, Keras
+3. Speed up TensorRT's model on jetson-tx2 (https://jkjung-avt.github.io/tf-trt-revisited)
 
 ## Driverless System
