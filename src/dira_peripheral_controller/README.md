@@ -3,10 +3,13 @@ Use the Terminal to run the following command:
 ```
   roslaunch dira_peripheral_controller dira_peripheral_controller.launch
 ```
+
 ### Topics
+
 <center>
 <img src="../../images/car_2.png" width="640"/>
 </center>
+
 #### Subscribers
 ---
 ##### LED
