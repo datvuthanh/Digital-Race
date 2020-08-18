@@ -22,7 +22,7 @@ To know the role, please read [documentation](./role/README.md).
 2. Object Detection
 3. Mapping with rtabmap
 4. Path planning with ROS nav stack. 
-5. Driveless System
+5. Driverless System
 
 For the full documentation of the development process, please visit my website: [datvuthanh.github.io](https://datvuthanh.github.io)
 
@@ -37,7 +37,7 @@ For the full documentation of the development process, please visit my website: 
 	* [Vehicle Motion Control](#Vehicle-Motion-Control)
 
 ## Introduction
-to do it
+Digital Race is a contest that is sponsored by FPT Corp. The task of the teams completing the race in the shortest time.
 
 ## Try it out
 Before you jump in, let me describe the hardware requirement for this project. **A webcam is the minimum requirment.** At this point, you can only run the whole system on the actual self-driving vehicle. ROS will throw warnings (even errors) at you if you don't have the hardware connected to your Linux machine. **If you don't have access to the hardware setup, don't worry** 👇
