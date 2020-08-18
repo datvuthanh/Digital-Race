@@ -52,7 +52,7 @@ class detection:
 
         self.classify_model = self.cnn_model()
 
-        f = gfile.FastGFile("/home/goodgame/catkin_ws/src/fptu_architecture/scripts/fptu/Handle/Utils/Tensor_RT Models/TensorRT_CNN_model_0506.pb", 'rb')
+        f = gfile.FastGFile("/Users/datvu/Documents/GitHub/Digital-Race/src/fptu_architecture/scripts/fptu/Model/TensorRT_CNN_model_0506.pb", 'rb')
         
         graph_def = tf.GraphDef()
         
@@ -141,13 +141,9 @@ def localization(centroids):
     image = read.frame
     image = cv2.resize(image,(144,144))
     
-    # cv2.imshow("Raw",image)
     with session.as_default():
         with session.graph.as_default():
             check,image_cnn = sign_density_check(image,sign_density,centroid_x,centroid_y)
-            # cv2.imwrite('/media/goodgame/3332-32337/Data_CNN_0306/straight/Data_CNN_0306_straight_'+str(count_cnn)+'.png', image_cnn)
-            # count_cnn += 1
-            # cv2.imshow("frame_CNN",image_cnn)
             if(check == True):
                 image_cnn = detect.processing(image_cnn)
 

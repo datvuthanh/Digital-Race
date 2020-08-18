@@ -46,7 +46,7 @@ class segment:
 
         self.graph = tf.get_default_graph()
         
-        f = gfile.FastGFile("/home/goodgame/catkin_ws/src/fptu_architecture/scripts/fptu/Handle/Utils/Tensor_RT Models/pspnet_rb.pb", 'rb')
+        f = gfile.FastGFile("/Users/datvu/Documents/GitHub/Digital-Race/src/fptu_architecture/scripts/fptu/Model/pspnet_rb.pb", 'rb')
         
         graph_def = tf.GraphDef()
         

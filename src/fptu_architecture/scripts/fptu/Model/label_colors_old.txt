@@ -1,3 +1,0 @@
-128 0 0	Road
-0 128 0	Midlane
-0 0 0	Background
