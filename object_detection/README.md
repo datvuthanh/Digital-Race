@@ -1,16 +1,16 @@
 
 
-**## Table of Content**
+## Table of Content
 
-\- [Object Detection](#Object-Detection)
+- [Object Detection](#Object-Detection)
 
-\- [Preprocessing](#Preprocessing)
+- [Preprocessing](#Preprocessing)
 
-\- [Training](#Training)
+- [Training](#Training)
 
-\- [Architecture](#Architecture)
+- [Architecture](#Architecture)
 
-\- [How it works](#How-it-works)
+- [How it works](#How-it-works)
 
 ### Object Detection
 
