@@ -13,35 +13,8 @@ Welcome! This is an open-source self-driving car aimed for rapid prototyping, de
 ### Goals:
 Research and develop a deep learning-driven self-driving car. The vehicle should be able to finish the race. 
 
-<center>
-<img src="./images/map.jpg" alt="Map" width="300" height="375"/>
-</center>
-
-#### The role: 
-<center>
-<img src="./images/role.jpg" alt="Role" width="300" height="300"/>
-</center>
-
-1. Biên, đường đi của xe có thể được xác định ngay cả trong trường hợp có nhiễu và địa hình đường đi
-phức tạp (đường có vạch kẻ đường hoặc kẻ nét đứt).
-
-2. Xe khoanh vùng, xác định và tránh được vật cản xuất hiện trên đường (đặc biệt là vật cản động)
-
-3. Xử lý được các tín hiệu nhiễu: Bóng cây, Tuyết trên đường
-
-4. Tất cả các xe thi đấu đều gắn sensor cảm biến và camera ghi lại hành trình thi đấu, chiếu trực tiếp cho
-khán giả theo dõi.
-
-5. Trường hợp xe lao ra ngoài: 2 bánh vẫn được chấp nhận, bánh thứ 3 đè lên vạch line 2 bên đường xe phải quay về điểm xuất phát và đi lại.
-
-6. Trên đường 2 chiều, xe luôn phải đi bên làn phải. Xe được phép chuyển làn khi đủ 2 điều kiện sau: vượt xe đi cùng chiều và vạch chia làn đường là nét đứt. Nếu
-
-7. không thực hiện đúng luật xe phải quay về điểm xuất phát và đi lại.
-
-8. Trường hợp xe có thể xin retry: đi sai đường, xe lao ra khỏi đường, xe dừng lại quá lâu.
-
-9. Tại checkpoint 5, xe phải dừng đủ 3 giây và 2 bánh xe trước đè lên hoặc vượt qua vạch xuất phát. Trường hợp xe không dừng đủ 3 giây, mốc hoàn thành xa nhất
-của xe là mốc cảm biến thứ 4, trước mốc STOP.
+### Role 
+To know the role, please read [documentation](./role/README.md). 
 
 #### The modules in this project.
 
@@ -49,6 +22,7 @@ của xe là mốc cảm biến thứ 4, trước mốc STOP.
 2. Object Detection
 3. Mapping with rtabmap
 4. Path planning with ROS nav stack. 
+5. Driveless System
 
 For the full documentation of the development process, please visit my website: [datvuthanh.github.io](https://datvuthanh.github.io)
 
@@ -77,29 +51,16 @@ To compile the project:
 ##### Requirements
 
 1. Make sure that you have [ROS](http://wiki.ros.org/melodic/Installation/Ubuntu) installed on your computer. (I am using ROS Melodic)
-2. Make sure you have all the [dependencies](./ros/requirements.txt) installed. 
+2. Make sure you have all the [dependencies](./src/README.md) installed. 
 
 ##### Clone & Compile
 
-1. Clone the repository. `$ git clone https://github.com/sigmaai/self-driving-golf-cart.git`
-2. `$ cd self-driving-golf-cart/ros` 
-3. `$ catkin_make`
-4. `$ source devel/setup.bash`
-
-##### Launch Lidar (RplidarA2)
-1. `$ cd ~/catkin_ws/`
-2. Clone the repository. `git clone https://github.com/Slamtec/rplidar_ros.git src/rplidar_ros` 
-2. `$ catkin_make`
-3. `$ roslaunch rplidar_launch rplidar.launch`
-##### Launch Orrbec Astra cameras
-- `$ roslaunch astra_launch astra.launch`
-
-##### Launch the Navigation Stack
-- `$ roslaunch path_planning rtab_mapping_navigation.launch` 
-
-<center>
-	<img src="./images/path_planning_2.png" alt="image" width="640"/>
-</center>
+1. Clone the repository. `$ git clone https://github.com/datvuthanh/Digital-Race.git`
+2. `$ cd Digital-Race` 
+3. `$ cp -r src/. ~/catkin_ws/src/.`
+4. `$ cd ~/catkin_ws/`
+5. `$ catkin_make`
+6. `$ source devel/setup.bash`
 
 ## About ROS
 This project uses ROS. __For more information on ROS, nodes, topics and others please refer to the ROS [README](./src/README.md).__
@@ -108,12 +69,12 @@ This project uses ROS. __For more information on ROS, nodes, topics and others p
 The cart understands its surrounding  through semantic segmentation, which is a technique in computer that classifies each pixel in an image into different categories. The vehicle can also make decisions based on the segmentic segmentation results. The cart can change its speed based on the proximity to nearby obstacles.
 
 <center>
-<img src="./images/seg.png" alt="Drawing" width="640"/>
+<img src="./images/pspnet.png" alt="Drawing" width="640"/>
 </center>
 
-We deployed the ENet architecture for segmentation. ENet is design to work well in realtime applications. For more information, please visit the [paper](http://arxiv.org/pdf/1606.02147.pdf). We used the CityScape dataset for training and the python code for training and inferencing are located in the `./src/segmentation/scripts` directory.
+We deployed the PSPNet architecture for segmentation. PSPNet is design to work well in realtime applications. For more information, please visit the [paper](https://arxiv.org/pdf/1612.01105.pdf). We collect dataset for training and the python code for training and inferencing are located in the `segmentation` directory.
 
-[VIDEO DEMO](https://www.youtube.com/watch?v=_y2RCakRrc4)
+[VIDEO DEMO](https://youtu.be/RMJ9s7XbxDs)
 
 <a name="the-navigation-stack" > </a>
 
