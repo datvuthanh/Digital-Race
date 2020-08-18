@@ -27,3 +27,9 @@ Công cụ này lưu file đã label dạng .json nhưng chúng ta cũng có th�
 Package này sẽ nêu rõ các vấn đề tại sao chúng tôi lại sử dụng các mô hình và metrics. Việc sử dụng cho mục đích gì sẽ được nêu rõ ở một package khác trong ROS có tên là **fptu_architecture** nơi thực hiện các thuật toán lái xe và dự đoán góc lái.
 
 ### Architecture
+
+Về kiến trúc, chúng tôi sử dụng kiến trục mạng PSPNet với backbone efficientnetb4 được train trên tập imagenet. Kích thước ảnh đầu vào là (144,144) với 4 classes: Line, Road, Traffic Signs, Background.
+
+<center>
+<img src="../images/pspnet.png" />
+</center>
