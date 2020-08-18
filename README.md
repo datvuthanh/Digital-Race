@@ -120,15 +120,19 @@ If you are interested in the detailed development process of this project, you c
 
 <img src="./images/datvu.jpg" alt="Drawing" width="80" height="80"/>
 
-**Huy Phan** | [Email](mailto:HuyPQHE141762@fpt.edu.vn) 
+**Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) | [Github](https://github.com/AnhTH-FUHN)
 
-<img src="./images/huyphan.png" alt="Drawing" width="80" height="80"/>
+<img src="./images/haianh.jpg" alt="Drawing" width="80" height="80"/>
 
 **Tra Dinh** | [Email](mailto:trandhe140661@fpt.edu.vn) 
 
 <img src="./images/tradinh.png" alt="Drawing" width="80" height="80"/>
 
-**Hai Anh Tran** | [Email](mailto:anhthhe141545@fpt.edu.vn) | [Github](https://github.com/AnhTH-FUHN)
 
-<img src="./images/haianh.jpg" alt="Drawing" width="80" height="80"/>
+**Huy Phan** | [Email](mailto:HuyPQHE141762@fpt.edu.vn) 
+
+<img src="./images/huyphan.png" alt="Drawing" width="80" height="80"/>
+
+
+
 
