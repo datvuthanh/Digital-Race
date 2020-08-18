@@ -1,7 +1,5 @@
-## ROS
 
 ## Table of Content
-- [ROS](#ros)
 - [Table of Content](#table-of-content)
 - [Dira](#dira)
 - [Libraries](#libraries)
