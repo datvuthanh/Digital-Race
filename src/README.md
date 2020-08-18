@@ -18,6 +18,18 @@ Ban tổ chức có đưa 3 package cơ bản để có thể khởi động xe:
 2. [dira_pca8266_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_pca8266_controller)
 3. [dira_peripheral_controller](https://github.com/datvuthanh/Digital-Race/tree/master/src/dira_peripheral_controller)
 
+Hardware requirements:
+1. Jetson TX2
+2. LCD 16x4
+3. Arduino Mini
+4. Servo SG90
+5. Orrbec Astra Camera
+6. RPLidar A2
+7. Infrared sensor
+ 
+<center>
+<img src="../images/car_1.png" />
+</center>
 ## Libraries
 
 Các thư viện tối thiểu cần phải cài trên mạch jetson-tx2:

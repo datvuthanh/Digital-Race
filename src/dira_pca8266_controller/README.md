@@ -1,8 +1,8 @@
-## DiRa PCA9685 Controller
+## DiRa PCA8266 Controller
 Make sure your car engine started using EZ button on the ESC and battery sercure under the car's base.
 Use the Terminal to run the following command:
 ```
-  roslaunch dira_pca9685_controller run_car.launch
+  roslaunch dira_pca8266_controller run_car.launch
 ```
 ## Topics
 ---
