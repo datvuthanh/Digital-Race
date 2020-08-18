@@ -40,11 +40,6 @@ For the full documentation of the development process, please visit my website: 
 Digital Race is a contest that is sponsored by FPT Corp. The task of the teams completing the race in the shortest time.
 
 ## Try it out
-Before you jump in, let me describe the hardware requirement for this project. **A webcam is the minimum requirment.** At this point, you can only run the whole system on the actual self-driving vehicle. ROS will throw warnings (even errors) at you if you don't have the hardware connected to your Linux machine. **If you don't have access to the hardware setup, don't worry** 👇
- 
-- The best way is to download and play back the ROS bags. [coming soon...]
-- You can tryout individual packages and nodes, and might find them helpful for your own projects. 
-- You can also tryout the CARLA simulator. (Maybe even improve the current system.)
 
 To compile the project:
 
