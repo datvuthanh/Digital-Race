@@ -110,7 +110,7 @@ The move base node publishes `/cmd_vel` commands, which are processed and sent d
 </center>
 
 # Contact / Info
-If you are interested in the detailed development process of this project, you can visit Neil's blog at [neilnie.com](https://neilnie.com) to find out more about it. Neil will make sure to keep you posted about all of the latest development on the club.
+If you are interested in the detailed development process of this project, you can contact me at email address: stephen.t.vu@hotmail.com or datvthe140592@fpt.edu.vn
 
 **Contributors:**
 
