@@ -14,6 +14,5 @@ class mpu9250:
                                     queue_size=1)
                                                              
     def mpu_angle_callback(self,ros_data):
-        x = 0
-        #print("HEREEEEEEEEEEEEEEEEEEEEEEEEE",ros_data)
+        #print("IMU Data",ros_data)
 

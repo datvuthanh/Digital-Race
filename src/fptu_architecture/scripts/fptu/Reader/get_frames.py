@@ -3,7 +3,7 @@
 '''
 MIT License
 
-Copyright (c) 2019 Stephen Vu
+Copyright (c) 2019 Dat Vu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -133,8 +133,6 @@ if __name__ == '__main__':
     
     read = read_input()
     
-    # rospy.Subscriber("/count", numpy_msg(Floats), count_objects)
-
     #while not rospy.is_shutdown():
         # define frame object and detect
     try:
