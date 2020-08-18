@@ -53,4 +53,4 @@ Kết quả đạt được: IoU 86%, F1-Score 90%. (Vẫn đang cải thiện)
 
 ## How it works
 
-Chạy notebook goodgame_GPU.ipynb. Sẽ update source-code trong thời gian tới.
+Dự án được chúng tôi deploy trên Kaggle với tập dataset GGDataSet. Bạn đọc có thể theo dõi source code trong notebook goodgame_GPU.ipynb. Chúng tôi không public dataset vì vậy nếu bạn đọc muốn sử dụng chúng, vui lòng liên hệ với tôi qua mail: stephen.t.vu@hotmail.com. 
