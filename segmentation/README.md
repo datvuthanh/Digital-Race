@@ -33,3 +33,14 @@ Về kiến trúc, chúng tôi sử dụng kiến trục mạng PSPNet với bac
 <center>
 <img src="../images/pspnet.png" />
 </center>
+Về loss, chúng tôi kết hợp hai hàm loss: focal loss và weighted dice loss với trọng số của mỗi class được tính bằng tổng pixel của mỗi class chia cho tổng pixel của toàn bộ tập ảnh huấn luyện. 
+
+Ngoài ra, chúng tôi có kết hợp một số hàm loss khác với nhau như jaccard loss + focal loss (hoặc weighted cross-entropy) kết quả huấn luyện không đạt hiệu quả bằng focal loss và weighted dice loss. 
+
+<center>
+<img src="../images/focal.png" />
+</center>
+
+<center>
+<img src="../images/fb_score.png" />
+</center>
