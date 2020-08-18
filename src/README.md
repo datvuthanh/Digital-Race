@@ -30,6 +30,7 @@ Hardware requirements:
 <center>
 <img src="../images/car_1.png" alt="image" width="640"/>
 </center>
+
 ## Libraries
 
 Các thư viện tối thiểu cần phải cài trên mạch jetson-tx2:
