@@ -97,19 +97,11 @@ The self-driving vehicle uses a modified version of the ROS navigation stack. Th
 
 The project uses the [`move_base`](http://wiki.ros.org/move_base) node from the navigation stack. The image below shows the costmap (in blue and purple), and the global occupancy grid (in black and gray). `move_base` also plans the local and global path. Global paths are shown in green and yellow below. You can find the `yaml` files [here](./ros/src/navigation/path_planning/params). 
 
-<center>
-	<img src="./images/path_plan_1.png" alt="Drawing" width="640"/>
-</center>
-
-<a name="Vehicle%20Motion%20Control" > </a>
 
 ### Vehicle Motion Control
 
 The move base node publishes `/cmd_vel` commands, which are processed and sent directly to the vehicle. 
 
-<center>
-	<img src="./images/vehicle_side.png" alt="Drawing" width="640"/>
-</center>
 
 # Contact / Info
 If you are interested in the detailed development process of this project, you can contact me at email address: stephen.t.vu@hotmail.com or datvthe140592@fpt.edu.vn
