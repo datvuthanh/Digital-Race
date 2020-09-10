@@ -87,12 +87,6 @@ The self-driving vehicle uses a modified version of the ROS navigation stack. Th
 
 `rtabmap` (realtime appearance based mapping) allows me to construct a global map of the environment. For more information on the mapping package, please check out this [`.launch` file](./src/mapping/launch/rtab_mapping.launch). 
 
-<center>
-	<img src="./images/rtab-map.png" alt="Drawing" width="640"/>
-</center> 
-
-<a name="Path%20Planning" > </a>
-
 ### Path Planning
 
 The project uses the [`move_base`](http://wiki.ros.org/move_base) node from the navigation stack. The image below shows the costmap (in blue and purple), and the global occupancy grid (in black and gray). `move_base` also plans the local and global path. Global paths are shown in green and yellow below. You can find the `yaml` files [here](./ros/src/navigation/path_planning/params). 
