@@ -1,0 +1,77 @@
+<launch>
+	<!-- Test -->
+	<node pkg="goodgame" name="ssd_rt" type="ssd_inference.py" output="screen">
+		<param name="ssd_model" value="$(find goodgame)/scripts/fptu/SSD/ssd_inference/ssd_models/ssd_1212.pb" />
+	</node> 
+	
+	<include file="$(find datmo)/launch/datmo.launch">
+
+	</include> 
+	
+	<node pkg="goodgame" name="rightmap_final" type="rightmap_final.py" output="screen">
+		<!-- SET VARIABLES -->
+        <param name="bamlan" value="0" />
+        <param name="sign_id" value="-1" />
+        <param name="first_time_display" value="False" />
+        <param name="count_for_sign" value="0" />
+        <param name="first_btn" value="False" />
+        <param name="sign_turn_hello" value="0" />
+        <param name="object_id" value="0" />
+        <param name="avoid_id" value="0" />
+        <param name="centroid_x_sign" value="0" />
+        <param name="centroid_y_sign" value="0" />
+        <param name="count_sign" value="0" />
+        <param name="check_site" value="0" />
+        <param name="turn_or_straight" value="0" />
+        <param name="check_decrease" value="False" />		
+        <param name="check_increase" value="False" />		
+        <param name="is_avoid_object" value="False" />	
+		<param name="max_angle" value = "10" />	
+		<param name="straight_time" value = "0.4" />
+		<param name="turnleft_time" value = "0.8" />
+		<param name="turnright_time" value = "1.1" />
+		<param name="noleft_straight_time" value = "0.4" />
+		<param name="noleft_turnright_time" value = "1" />
+		<param name="noright_straight_time" value = "0.4" />
+		<param name="noright_turnleft_time" value = "1" />
+		<param name="noleft_straight_angle" value = "-5" />
+		<param name="noright_straight_angle" value ="5" />
+		<param name="normal_speed" value = "20.0" />
+		<param name="curve_speed" value = "18.5" />
+		<param name="reset_all" value =  "False" />
+		<param name="cuting" value =  "False" />
+		<param name="cut_road" value =  "False" />
+		<param name="turn_off" value =  "False" />
+		<param name="car_seg" value =  "False" />
+		<param name="stop_bool" value =  "False" />
+		<!-- LOAD MODEL-->
+		<param name="pspnet_model" value = "$(find goodgame)/scripts/fptu/Model/PSPNET_3classes/seg_datvu_0812_8846_9342.pb" />
+		<param name="label_colors" value = "$(find goodgame)/scripts/fptu/Model/PSPNET_3classes/label_colors.txt" />
+	</node> 
+	
+	<include file="$(find astra_launch)/launch/astra.launch" >
+
+	</include>   
+
+	<include file="$(find dira_peripheral_controller)/launch/dira_peripheral_controller.launch">
+
+	</include>   
+	
+
+	<include file="$(find dira_pca9685_controller)/launch/run_car.launch">
+
+	</include> 
+
+	<node pkg="goodgame" name="read_input" type="get_frames.py" output="screen">
+
+	</node>
+
+	<!-- <include file="$(find dira_mpu9250_controller)/launch/dira_mpu9250_controller.launch">
+
+	</include> -->
+
+	<!-- <include file="$(find rplidar_ros)/launch/rplidar.launch">
+
+	</include> -->
+
+</launch>

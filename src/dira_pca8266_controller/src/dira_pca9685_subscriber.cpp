@@ -69,8 +69,7 @@ int main(int argc, char **argv)
     double spd = 0;
     api_set_FORWARD_control(pca9685, spd);
     
-    ros::Rate r(1);
-    
+    // ros::Rate r(10);
     
     /* Ackermann Drive with joystick
     ros::Subscriber key = n.subscribe("/ackermann_cmd", 10, process_ackermann_msgs);

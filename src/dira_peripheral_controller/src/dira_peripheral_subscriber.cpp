@@ -143,7 +143,7 @@ int main(int argc, char **argv)
     unsigned int ss1_status = -1;
     unsigned int ss2_status = -1;
     
-    ros::Rate r(10);
+    ros::Rate r(5);
     while (ros::ok()){
         
         HAL.gpioGetValue(SW1_PIN, &bt1_status);

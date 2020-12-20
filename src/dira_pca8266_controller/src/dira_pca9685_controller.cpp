@@ -150,11 +150,11 @@ int api_set_BRAKE_control( PCA9685 *pca9685,double &throttle_val)
     {
         pca9685->setPWM(THROTTLE_CHANNEL,0, map(-100, 0, -100 ,THROTTLE_NEUTRAL ,THROTTLE_MAX_REVERSE));
 	    ROS_INFO("dir value:%d",direction);
-        usleep(187500);
+        usleep(187500*3);
         pca9685->setPWM(THROTTLE_CHANNEL,0, THROTTLE_NEUTRAL);
         ROS_INFO("dir value:%d",direction);
         direction = 0;
-	    usleep(187500);
+	    usleep(187500*3);
     }
     else if(direction == -1)
     {

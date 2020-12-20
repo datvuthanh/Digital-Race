@@ -72,9 +72,12 @@ int main(int argc, char **argv)
             now = RTMath::currentUSecsSinceEpoch();
             sampleCount++;
             RTIMU_DATA imu_data = imu->getIMUData();
-
+            ROS_INFO("HELLO");
             imu_msg.header.stamp = ros::Time::now();
             imu_msg.header.frame_id = frame_id;
+            ROS_INFO("IMU orientation : [%f %f %f]", imu_data.fusionQPose.x(),imu_data.fusionQPose.y() ,imu_data.fusionQPose.z());
+            ROS_INFO("IMU angular velocity : [%f %f %f]", imu_data.gyro.x(),imu_data.gyro.y(),imu_data.gyro.z());
+            ROS_INFO("IMU linear acceleration : [%f %f %f]",imu_data.accel.x() * G_TO_MPSS,imu_data.accel.y() * G_TO_MPSS,imu_data.accel.z() * G_TO_MPSS) ;
 
             imu_msg.orientation.x = imu_data.fusionQPose.x(); 
             imu_msg.orientation.y = imu_data.fusionQPose.y(); 
@@ -84,6 +87,7 @@ int main(int argc, char **argv)
             imu_msg.angular_velocity.x = imu_data.gyro.x();
             imu_msg.angular_velocity.y = imu_data.gyro.y();
             imu_msg.angular_velocity.z = imu_data.gyro.z();
+
 
             imu_msg.linear_acceleration.x = imu_data.accel.x() * G_TO_MPSS;
             imu_msg.linear_acceleration.y = imu_data.accel.y() * G_TO_MPSS;
