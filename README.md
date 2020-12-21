@@ -2,6 +2,8 @@
 <img src="./images/cover.png" alt="Cover"/>
 </center>
 
+### Paper:
+[documentation](./images/ACMCAR.pdf). 
 ### Demo:
 
 <center>
@@ -77,8 +79,7 @@ We deployed the PSPNet architecture for segmentation. PSPNet is design to work w
 
 ## The Navigation Stack
 
-![](./images/navi.png)
-
+g
 The self-driving vehicle uses a modified version of the ROS navigation stack. The flowchart above illustrate the mapping and path planning process. First, I create a detailed map of the environment with `rtabmap_ros`. With that global map, I use the localization feature of `rtabmap_ros` and the odom feature of the zed camera system to localize and plan paths. 
 
 <a name="RTABMap" > </a>
