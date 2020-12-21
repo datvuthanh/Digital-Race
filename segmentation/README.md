@@ -46,7 +46,7 @@ Với các tham số cho dice loss, chúng tôi muốn chú trọng nhiều hơn
 
 ## Result
 
-Kết quả đạt được: IoU 86%, F1-Score 90%. (Vẫn đang cải thiện)
+Kết quả đạt được: IoU 88%, F1-Score 94%, F1-Score Road: 98%, F1-Score Background 96%, F1-Score Line 88%.
 
 ## How it works
 
