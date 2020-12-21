@@ -50,4 +50,6 @@ Kết quả đạt được: IoU 88%, F1-Score 94%, F1-Score Road: 98%, F1-Score
 
 ## How it works
 
-Dự án được chúng tôi deploy trên Kaggle với tập dataset GGDataSet. Bạn đọc có thể theo dõi source code trong notebook goodgame_GPU.ipynb. Chúng tôi không public dataset vì vậy nếu bạn đọc muốn sử dụng chúng, vui lòng liên hệ với tôi qua mail: stephen.t.vu@hotmail.com. 
+Dataset: https://drive.google.com/file/d/1EKA7VGdKjevT855ycYW0BOaI8u0r2Sa_/view?usp=sharing
+
+Dự án được chúng tôi training trên GPU Titan với 20 phút training.Thực tế lúc đi thi chúng tôi không cần dán thêm bất kì data nào nhưng để đảm bảo mọi thứ hoạt động tốt nên đã label thêm 500 data.
