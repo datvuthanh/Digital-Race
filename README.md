@@ -8,7 +8,7 @@ We are the champions of digital race.
 </center>
 
 <center>
-<img src="./images/cover.png" alt="Cover"/>
+<img src="./images/champion.jpg" alt="Cover"/>
 </center>
 
 ### Paper:
