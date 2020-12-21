@@ -3,7 +3,7 @@
 </center>
 
 ### Paper:
-[documentation](./images/ACMCAR.pdf). 
+[Paper](./images/ACM_CAR.pdf). 
 ### Demo:
 
 <center>
