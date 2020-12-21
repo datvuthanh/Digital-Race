@@ -2,6 +2,15 @@
 <img src="./images/cover.png" alt="Cover"/>
 </center>
 
+We are the champions of digital race.
+<center>
+<img src="./images/goodgame.jpg" alt="Cover"/>
+</center>
+
+<center>
+<img src="./images/cover.png" alt="Cover"/>
+</center>
+
 ### Paper:
 [Paper](./images/ACM_CAR.pdf). 
 ### Demo:
