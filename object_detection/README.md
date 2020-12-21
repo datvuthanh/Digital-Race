@@ -28,6 +28,18 @@ SSD7 Method
 
 ### Results
 
+<center>
+<img src="./images/SSD_1.png" alt="Cover"/>
+</center>
+
+<center>
+<img src="./images/SSD_2ng" alt="Cover"/>
+</center>
+
+<center>
+<img src="./images/SSD_3png" alt="Cover"/>
+</center>
+
 ### Dataset
 [Dataset](https://drive.google.com/file/d/1NGrKWHc1z_4bOh2huWHC8kZsUZFXOku-/view?usp=sharing)
 ### How it works 
