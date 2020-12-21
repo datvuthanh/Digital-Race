@@ -33,11 +33,11 @@ SSD7 Method
 </center>
 
 <center>
-<img src="./images/SSD_2ng" alt="Cover"/>
+<img src="./images/SSD_2.png" alt="Cover"/>
 </center>
 
 <center>
-<img src="./images/SSD_3png" alt="Cover"/>
+<img src="./images/SSD_3.png" alt="Cover"/>
 </center>
 
 ### Dataset
