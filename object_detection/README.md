@@ -29,15 +29,15 @@ SSD7 Method
 ### Results
 
 <center>
-<img src="./images/SSD_1.png" alt="Cover"/>
+<img src="../images/SSD_1.png" alt="Cover"/>
 </center>
 
 <center>
-<img src="./images/SSD_2.png" alt="Cover"/>
+<img src="../images/SSD_2.png" alt="Cover"/>
 </center>
 
 <center>
-<img src="./images/SSD_3.png" alt="Cover"/>
+<img src="../images/SSD_3.png" alt="Cover"/>
 </center>
 
 ### Dataset
