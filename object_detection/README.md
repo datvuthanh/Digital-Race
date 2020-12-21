@@ -26,6 +26,10 @@ SSD7 Method
 ### Architecture
 
 
+### Results
+
+### Dataset
+[Dataset](https://drive.google.com/file/d/1NGrKWHc1z_4bOh2huWHC8kZsUZFXOku-/view?usp=sharing)
 ### How it works 
 
 1. Train model ```python3 train.py```
