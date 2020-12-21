@@ -1,2 +1,6 @@
 
 src/datmo/
+src/ros_astra_camera/
+src/ros_astra_launch/
+src/rplidar_ros/
+src/rplidar/
