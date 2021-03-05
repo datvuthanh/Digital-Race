@@ -31,9 +31,6 @@ To know the role, please read [documentation](./role/README.md).
 
 1. Semantic Segmentation
 2. Object Detection
-3. Mapping with rtabmap
-4. Path planning with ROS nav stack. 
-5. Driverless System
 
 For the full documentation of the development process, please visit my website: [datvuthanh.github.io](https://datvuthanh.github.io)
 
@@ -42,10 +39,6 @@ For the full documentation of the development process, please visit my website: 
 - [Try it out](#Try-it-out)
 - [About ROS](#About-ROS)
 - [Semantic Segmentation](#Semantic-Segmentation)
-- [The Navigation Stack](#the-navigation-stack)
-	* [RTABMap](#RTABMap)
-	* [Path Planning](#Path-Planning)
-	* [Vehicle Motion Control](#Vehicle-Motion-Control)
 
 ## Introduction
 Digital Race is a contest that is sponsored by FPT Corp. The task of the teams completing the race in the shortest time.
@@ -85,26 +78,6 @@ We deployed the PSPNet architecture for segmentation. PSPNet is design to work w
 </center>
 
 [VIDEO DEMO](https://youtu.be/RMJ9s7XbxDs)
-
-## The Navigation Stack
-
-g
-The self-driving vehicle uses a modified version of the ROS navigation stack. The flowchart above illustrate the mapping and path planning process. First, I create a detailed map of the environment with `rtabmap_ros`. With that global map, I use the localization feature of `rtabmap_ros` and the odom feature of the zed camera system to localize and plan paths. 
-
-<a name="RTABMap" > </a>
-
-### RTABMap
-
-`rtabmap` (realtime appearance based mapping) allows me to construct a global map of the environment. For more information on the mapping package, please check out this [`.launch` file](./src/mapping/launch/rtab_mapping.launch). 
-
-### Path Planning
-
-The project uses the [`move_base`](http://wiki.ros.org/move_base) node from the navigation stack. The image below shows the costmap (in blue and purple), and the global occupancy grid (in black and gray). `move_base` also plans the local and global path. Global paths are shown in green and yellow below. You can find the `yaml` files [here](./ros/src/navigation/path_planning/params). 
-
-
-### Vehicle Motion Control
-
-The move base node publishes `/cmd_vel` commands, which are processed and sent directly to the vehicle. 
 
 
 # Contact / Info
