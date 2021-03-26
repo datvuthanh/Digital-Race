@@ -12,7 +12,7 @@ We are the champions of digital race.
 </center>
 
 ### Paper:
-[Paper](./images/ACM_CAR.pdf). 
+Our paper published at ICSCA 2021, you can see details at https://doi.org/10.1145/3457784.3457827.
 ### Demo:
 
 <center>
